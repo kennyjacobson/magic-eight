@@ -20,7 +20,7 @@ export default function FrameHomePage() {
           },
         ]}
         image={{
-         src: 'https://zizzamia.xyz/park-3.png',
+         src: 'https://nfts-dataw.s3.amazonaws.com/magic-8-ball/magic-8-ball-title.png',
          aspectRatio: '1:1'
         }}
         input={{
