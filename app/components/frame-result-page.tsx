@@ -1,17 +1,18 @@
 import React from 'react';
 import {FrameMetadata} from  '@coinbase/onchainkit'
 
-export default function FrameHomePage() {
-  let imageSrc = 'https://nfts-dataw.s3.amazonaws.com/magic-8-ball/magic-8-ball-title.png'
+export default function FrameResultPage() {
 
+    const randomNumber = Math.floor(Math.random() * 12) + 1;
+    const imageSrc = `https://nfts-dataw.s3.amazonaws.com/magic-8-ball/magic-8-ball-${randomNumber}.png`;
+  
     return (
       
       <FrameMetadata
         buttons={[
           {
-            label: 'Shake Me!',
+            label: 'Shake Again! ',
           },
-    
         ]}
         image={{
          src: imageSrc,
