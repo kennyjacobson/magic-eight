@@ -1,5 +1,4 @@
 import Image from "next/image";
-import test from "./components/test";
 import Test from "./components/test";
 import FrameHomePage from "./components/frame-home-page";
 

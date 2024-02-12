@@ -3,7 +3,8 @@ import {FrameMetadata} from  '@coinbase/onchainkit'
 
 export default function FrameResultPage() {
 
-    const randomNumber = Math.floor(Math.random() * 12) + 1;
+    // const randomNumber = Math.floor(Math.random() * 12) + 1;
+    const randomNumber = 1;
     const imageSrc = `https://nfts-dataw.s3.amazonaws.com/magic-8-ball/magic-8-ball-${randomNumber}.png`;
     console.log(imageSrc);
     return (

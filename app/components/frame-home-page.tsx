@@ -3,6 +3,7 @@ import {FrameMetadata} from  '@coinbase/onchainkit'
 
 export default function FrameHomePage() {
   let imageSrc = 'https://nfts-dataw.s3.amazonaws.com/magic-8-ball/magic-8-ball-title.png'
+  
 
     return (
       
